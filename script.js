@@ -18,7 +18,7 @@ document.getElementById("mybutton").onclick = function() {
             break;
         default:
             // document.querySelector("h2").innerHTML = "Enter the letter A to E or a to e"; yo gare ni vayo natra
-            document.getElementsById("h2")[0].innerHTML = "Enter the letter A to E or a to e";
+            document.getElementsByTagName("h2")[0].innerHTML = "Enter the letter A to E or a to e";
             // kura same ho ,getElementById garda chai hamro html file ma dherai h2 huna shakxan,
             //  so kun chai h2 ma output dini ho specify garnu parni haixa 
             break;
